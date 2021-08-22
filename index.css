@@ -30,8 +30,31 @@ body {
   box-sizing: border-box;
 }
 
+
 body {
   height: 100%;
+}
+.ml6 {
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+.ml6 .text-wrapper {
+  
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+  text-align: center;
+ 
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;
 }
 
 h1 {
@@ -42,8 +65,8 @@ h1 {
   color: white;
 }
 .imgg2{
-  width: 20%; 
-  height: 20%; 
+  width: 30%; 
+  height: 30%; 
   display: block;
  
 }
@@ -115,7 +138,7 @@ h2 {
   max-width: 100%;
   margin: auto;
   position: relative;
-  background-color: #003277;
+  background-color: black;
   border-radius: 4px;
   height: 100%;
 }
@@ -207,5 +230,24 @@ h2 {
   border-radius: 4px;
   margin-top: 40px;
 }
+
+.footer-icon, .call-icon{
+  font-size:50px;
+  flex-wrap: wrap;
+  margin-right:5px;
+  color:white;
+}
+
+.icon-style {
+  color: white;
+}
+
+.hobbies-iconify, .contact-iconify {
+    font-size:50px;
+    flex-wrap: wrap;
+    margin-right:5px;
+    color:white;
+}
+
 
 
